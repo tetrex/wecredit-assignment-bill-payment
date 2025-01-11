@@ -1,8 +1,8 @@
-check pkg > services
+Check the `pkg` directory for service implementations.
 
-bills : for bills related logic
-events : for events related logic
+- **Bills**: Contains logic related to bills
+- **Events**: Contains logic related to events
 
-file names are as api names , bussiness logic is written in comments
-as there is no class in golang everything is function
-simple sql querry can do the job for most of the bussiness logic
+- File names match API names, and business logic is written in comments.
+- Since Go does not have classes, all logic is implemented using functions.
+- A simple SQL query can handle most of the business logic.
